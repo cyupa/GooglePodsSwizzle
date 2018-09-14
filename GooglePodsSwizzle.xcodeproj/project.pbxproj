@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29B2699EA6AF7B98A581A52E /* Pods_GooglePodsSwizzle_GooglePodsSwizzleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171FB34A52B55B48E1BF19FE /* Pods_GooglePodsSwizzle_GooglePodsSwizzleUITests.framework */; };
+		338CE4E3FDBC8E5C31DE9FEF /* Pods_GooglePodsSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6859C3188D19A606D5D0D088 /* Pods_GooglePodsSwizzle.framework */; };
+		447699802BF6B3A6BCADF6AC /* Pods_GooglePodsSwizzle_GooglePodsSwizzleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EC062D08445B72D48F747C /* Pods_GooglePodsSwizzle_GooglePodsSwizzleTests.framework */; };
+		5848750EEE135E18B9F22D75 /* Pods_GooglePodsSwizzleToday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CA616D1E1F2AA182B16A14 /* Pods_GooglePodsSwizzleToday.framework */; };
+		77B77791A26B3457515751B2 /* Pods_GooglePodsSwizzleWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6BC4E5134C60EDA828563F /* Pods_GooglePodsSwizzleWatch.framework */; };
+		A2E4524F4A8C137DB211A6A2 /* Pods_GooglePodsSwizzleIntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2F5433734980B33255A28E /* Pods_GooglePodsSwizzleIntentsUI.framework */; };
+		D22A639B183B1B279E79F3BC /* Pods_GooglePodsSwizzleWatchExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF0FE1631D265360AD55396 /* Pods_GooglePodsSwizzleWatchExtension.framework */; };
 		D646DD7B214C654100391639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DD7A214C654100391639 /* AppDelegate.swift */; };
 		D646DD7D214C654100391639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DD7C214C654100391639 /* ViewController.swift */; };
 		D646DD80214C654100391639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646DD7E214C654100391639 /* Main.storyboard */; };
@@ -14,6 +21,26 @@
 		D646DD85214C654300391639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646DD83214C654300391639 /* LaunchScreen.storyboard */; };
 		D646DD90214C654300391639 /* GooglePodsSwizzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DD8F214C654300391639 /* GooglePodsSwizzleTests.swift */; };
 		D646DD9B214C654300391639 /* GooglePodsSwizzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DD9A214C654300391639 /* GooglePodsSwizzleUITests.swift */; };
+		D646DDAF214C656B00391639 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D646DDAE214C656B00391639 /* NotificationCenter.framework */; };
+		D646DDB2214C656B00391639 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DDB1214C656B00391639 /* TodayViewController.swift */; };
+		D646DDB5214C656B00391639 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646DDB3214C656B00391639 /* MainInterface.storyboard */; };
+		D646DDB9214C656B00391639 /* GooglePodsSwizzleToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D646DDAC214C656B00391639 /* GooglePodsSwizzleToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D646DDC4214C659600391639 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646DDC2214C659600391639 /* Interface.storyboard */; };
+		D646DDC6214C659700391639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D646DDC5214C659700391639 /* Assets.xcassets */; };
+		D646DDCD214C659700391639 /* GooglePodsSwizzleWatchExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D646DDCC214C659700391639 /* GooglePodsSwizzleWatchExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D646DDD2214C659700391639 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DDD1214C659700391639 /* InterfaceController.swift */; };
+		D646DDD4214C659700391639 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DDD3214C659700391639 /* ExtensionDelegate.swift */; };
+		D646DDD6214C659700391639 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DDD5214C659700391639 /* NotificationController.swift */; };
+		D646DDD8214C659700391639 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DDD7214C659700391639 /* ComplicationController.swift */; };
+		D646DDDA214C659800391639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D646DDD9214C659800391639 /* Assets.xcassets */; };
+		D646DDDF214C659800391639 /* GooglePodsSwizzleWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D646DDC0214C659600391639 /* GooglePodsSwizzleWatch.app */; };
+		D646DDEF214C65B300391639 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DDEE214C65B300391639 /* IntentHandler.swift */; };
+		D646DDF7214C65B300391639 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D646DDF6214C65B300391639 /* IntentsUI.framework */; };
+		D646DDFA214C65B300391639 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DDF9214C65B300391639 /* IntentViewController.swift */; };
+		D646DDFD214C65B300391639 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646DDFB214C65B300391639 /* MainInterface.storyboard */; };
+		D646DE01214C65B400391639 /* GooglePodsSwizzleIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D646DDF5214C65B300391639 /* GooglePodsSwizzleIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D646DE04214C65B400391639 /* GooglePodsSwizzleIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D646DDEC214C65B300391639 /* GooglePodsSwizzleIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE16AF69C29BC918808F12DE /* Pods_GooglePodsSwizzleIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB24B53AF191AAF6D03247F9 /* Pods_GooglePodsSwizzleIntents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +58,102 @@
 			remoteGlobalIDString = D646DD76214C654100391639;
 			remoteInfo = GooglePodsSwizzle;
 		};
+		D646DDB7214C656B00391639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D646DD6F214C654100391639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D646DDAB214C656B00391639;
+			remoteInfo = GooglePodsSwizzleToday;
+		};
+		D646DDCE214C659700391639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D646DD6F214C654100391639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D646DDCB214C659700391639;
+			remoteInfo = "GooglePodsSwizzleWatch Extension";
+		};
+		D646DDDD214C659800391639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D646DD6F214C654100391639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D646DDBF214C659600391639;
+			remoteInfo = GooglePodsSwizzleWatch;
+		};
+		D646DDFF214C65B400391639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D646DD6F214C654100391639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D646DDF4214C65B300391639;
+			remoteInfo = GooglePodsSwizzleIntentsUI;
+		};
+		D646DE02214C65B400391639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D646DD6F214C654100391639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D646DDEB214C65B300391639;
+			remoteInfo = GooglePodsSwizzleIntents;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D646DDBD214C656B00391639 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D646DE01214C65B400391639 /* GooglePodsSwizzleIntentsUI.appex in Embed App Extensions */,
+				D646DDB9214C656B00391639 /* GooglePodsSwizzleToday.appex in Embed App Extensions */,
+				D646DE04214C65B400391639 /* GooglePodsSwizzleIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDE3214C659800391639 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D646DDCD214C659700391639 /* GooglePodsSwizzleWatchExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDE7214C659800391639 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D646DDDF214C659800391639 /* GooglePodsSwizzleWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		02D819AA672B378C5059CA26 /* Pods-GooglePodsSwizzleIntentsUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleIntentsUI.debug.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleIntentsUI/Pods-GooglePodsSwizzleIntentsUI.debug.xcconfig"; sourceTree = "<group>"; };
+		04C1449E27BDB5F6DC3764D7 /* Pods-GooglePodsSwizzleWatchExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleWatchExtension.release.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleWatchExtension/Pods-GooglePodsSwizzleWatchExtension.release.xcconfig"; sourceTree = "<group>"; };
+		0F2F5433734980B33255A28E /* Pods_GooglePodsSwizzleIntentsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglePodsSwizzleIntentsUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		171FB34A52B55B48E1BF19FE /* Pods_GooglePodsSwizzle_GooglePodsSwizzleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglePodsSwizzle_GooglePodsSwizzleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F4ABB69E0B21559B10E76B /* Pods-GooglePodsSwizzleIntents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleIntents.release.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleIntents/Pods-GooglePodsSwizzleIntents.release.xcconfig"; sourceTree = "<group>"; };
+		5775853A02095827E5720C22 /* Pods-GooglePodsSwizzleIntentsUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleIntentsUI.release.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleIntentsUI/Pods-GooglePodsSwizzleIntentsUI.release.xcconfig"; sourceTree = "<group>"; };
+		6859C3188D19A606D5D0D088 /* Pods_GooglePodsSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglePodsSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3DA867BCA22D5E5FBFBD6B /* Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.release.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests/Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77914B8229AF516D721C9E3E /* Pods-GooglePodsSwizzleWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleWatch.release.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleWatch/Pods-GooglePodsSwizzleWatch.release.xcconfig"; sourceTree = "<group>"; };
+		7B6BC4E5134C60EDA828563F /* Pods_GooglePodsSwizzleWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglePodsSwizzleWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CA616D1E1F2AA182B16A14 /* Pods_GooglePodsSwizzleToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglePodsSwizzleToday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89021A258971CEAC7EE98CD5 /* Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.release.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzle-GooglePodsSwizzleTests/Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.release.xcconfig"; sourceTree = "<group>"; };
+		95AE2EF54AB8A44B3DE81038 /* Pods-GooglePodsSwizzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzle.release.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzle/Pods-GooglePodsSwizzle.release.xcconfig"; sourceTree = "<group>"; };
+		ABF0FE1631D265360AD55396 /* Pods_GooglePodsSwizzleWatchExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglePodsSwizzleWatchExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD688FF892241C46C5AD96AF /* Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.debug.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzle-GooglePodsSwizzleTests/Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE02021A14A2CA189A9F4162 /* Pods-GooglePodsSwizzleToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleToday.debug.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleToday/Pods-GooglePodsSwizzleToday.debug.xcconfig"; sourceTree = "<group>"; };
+		C3EC062D08445B72D48F747C /* Pods_GooglePodsSwizzle_GooglePodsSwizzleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglePodsSwizzle_GooglePodsSwizzleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A33D597355CF4C32BA53F9 /* Pods-GooglePodsSwizzleToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleToday.release.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleToday/Pods-GooglePodsSwizzleToday.release.xcconfig"; sourceTree = "<group>"; };
+		CB24B53AF191AAF6D03247F9 /* Pods_GooglePodsSwizzleIntents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GooglePodsSwizzleIntents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8B0C48A8423DAE59A0D30B /* Pods-GooglePodsSwizzleWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleWatch.debug.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleWatch/Pods-GooglePodsSwizzleWatch.debug.xcconfig"; sourceTree = "<group>"; };
 		D646DD77214C654100391639 /* GooglePodsSwizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePodsSwizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646DD7A214C654100391639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D646DD7C214C654100391639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +167,36 @@
 		D646DD96214C654300391639 /* GooglePodsSwizzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePodsSwizzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D646DD9A214C654300391639 /* GooglePodsSwizzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePodsSwizzleUITests.swift; sourceTree = "<group>"; };
 		D646DD9C214C654300391639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646DDAC214C656B00391639 /* GooglePodsSwizzleToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GooglePodsSwizzleToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D646DDAE214C656B00391639 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		D646DDB1214C656B00391639 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		D646DDB4214C656B00391639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D646DDB6214C656B00391639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646DDC0214C659600391639 /* GooglePodsSwizzleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePodsSwizzleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D646DDC3214C659600391639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D646DDC5214C659700391639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D646DDC7214C659700391639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646DDCC214C659700391639 /* GooglePodsSwizzleWatchExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GooglePodsSwizzleWatchExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D646DDD1214C659700391639 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D646DDD3214C659700391639 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D646DDD5214C659700391639 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D646DDD7214C659700391639 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D646DDD9214C659800391639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D646DDDB214C659800391639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646DDDC214C659800391639 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D646DDEC214C65B300391639 /* GooglePodsSwizzleIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GooglePodsSwizzleIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D646DDEE214C65B300391639 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		D646DDF0214C65B300391639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646DDF5214C65B300391639 /* GooglePodsSwizzleIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GooglePodsSwizzleIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D646DDF6214C65B300391639 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		D646DDF9214C65B300391639 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		D646DDFC214C65B300391639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D646DDFE214C65B400391639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646DE0B214C6D5F00391639 /* GooglePodsSwizzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GooglePodsSwizzle.entitlements; sourceTree = "<group>"; };
+		E997125EC78A6BB745DCBF14 /* Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.debug.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests/Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1CB1FF8AD6A91953E77EE55 /* Pods-GooglePodsSwizzleIntents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleIntents.debug.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleIntents/Pods-GooglePodsSwizzleIntents.debug.xcconfig"; sourceTree = "<group>"; };
+		FE0393633015C276E86DE969 /* Pods-GooglePodsSwizzleWatchExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzleWatchExtension.debug.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzleWatchExtension/Pods-GooglePodsSwizzleWatchExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		FE37159B27A8C765EC51F74A /* Pods-GooglePodsSwizzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePodsSwizzle.debug.xcconfig"; path = "Target Support Files/Pods-GooglePodsSwizzle/Pods-GooglePodsSwizzle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338CE4E3FDBC8E5C31DE9FEF /* Pods_GooglePodsSwizzle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +212,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				447699802BF6B3A6BCADF6AC /* Pods_GooglePodsSwizzle_GooglePodsSwizzleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +220,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B2699EA6AF7B98A581A52E /* Pods_GooglePodsSwizzle_GooglePodsSwizzleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDA9214C656B00391639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDAF214C656B00391639 /* NotificationCenter.framework in Frameworks */,
+				5848750EEE135E18B9F22D75 /* Pods_GooglePodsSwizzleToday.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDC9214C659700391639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22A639B183B1B279E79F3BC /* Pods_GooglePodsSwizzleWatchExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDE9214C65B300391639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE16AF69C29BC918808F12DE /* Pods_GooglePodsSwizzleIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDF2214C65B300391639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDF7214C65B300391639 /* IntentsUI.framework in Frameworks */,
+				A2E4524F4A8C137DB211A6A2 /* Pods_GooglePodsSwizzleIntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB106A584CB68B47D1FB2917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B77791A26B3457515751B2 /* Pods_GooglePodsSwizzleWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20E701DAA287498E56D1AB29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE37159B27A8C765EC51F74A /* Pods-GooglePodsSwizzle.debug.xcconfig */,
+				95AE2EF54AB8A44B3DE81038 /* Pods-GooglePodsSwizzle.release.xcconfig */,
+				AD688FF892241C46C5AD96AF /* Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.debug.xcconfig */,
+				89021A258971CEAC7EE98CD5 /* Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.release.xcconfig */,
+				E997125EC78A6BB745DCBF14 /* Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.debug.xcconfig */,
+				6D3DA867BCA22D5E5FBFBD6B /* Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.release.xcconfig */,
+				F1CB1FF8AD6A91953E77EE55 /* Pods-GooglePodsSwizzleIntents.debug.xcconfig */,
+				46F4ABB69E0B21559B10E76B /* Pods-GooglePodsSwizzleIntents.release.xcconfig */,
+				02D819AA672B378C5059CA26 /* Pods-GooglePodsSwizzleIntentsUI.debug.xcconfig */,
+				5775853A02095827E5720C22 /* Pods-GooglePodsSwizzleIntentsUI.release.xcconfig */,
+				BE02021A14A2CA189A9F4162 /* Pods-GooglePodsSwizzleToday.debug.xcconfig */,
+				C6A33D597355CF4C32BA53F9 /* Pods-GooglePodsSwizzleToday.release.xcconfig */,
+				CE8B0C48A8423DAE59A0D30B /* Pods-GooglePodsSwizzleWatch.debug.xcconfig */,
+				77914B8229AF516D721C9E3E /* Pods-GooglePodsSwizzleWatch.release.xcconfig */,
+				FE0393633015C276E86DE969 /* Pods-GooglePodsSwizzleWatchExtension.debug.xcconfig */,
+				04C1449E27BDB5F6DC3764D7 /* Pods-GooglePodsSwizzleWatchExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D646DD6E214C654100391639 = {
 			isa = PBXGroup;
 			children = (
 				D646DD79214C654100391639 /* GooglePodsSwizzle */,
 				D646DD8E214C654300391639 /* GooglePodsSwizzleTests */,
 				D646DD99214C654300391639 /* GooglePodsSwizzleUITests */,
+				D646DDB0214C656B00391639 /* GooglePodsSwizzleToday */,
+				D646DDC1214C659600391639 /* GooglePodsSwizzleWatch */,
+				D646DDD0214C659700391639 /* GooglePodsSwizzleWatch Extension */,
+				D646DDED214C65B300391639 /* GooglePodsSwizzleIntents */,
+				D646DDF8214C65B300391639 /* GooglePodsSwizzleIntentsUI */,
+				D646DDAD214C656B00391639 /* Frameworks */,
 				D646DD78214C654100391639 /* Products */,
+				20E701DAA287498E56D1AB29 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +315,11 @@
 				D646DD77214C654100391639 /* GooglePodsSwizzle.app */,
 				D646DD8B214C654300391639 /* GooglePodsSwizzleTests.xctest */,
 				D646DD96214C654300391639 /* GooglePodsSwizzleUITests.xctest */,
+				D646DDAC214C656B00391639 /* GooglePodsSwizzleToday.appex */,
+				D646DDC0214C659600391639 /* GooglePodsSwizzleWatch.app */,
+				D646DDCC214C659700391639 /* GooglePodsSwizzleWatchExtension.appex */,
+				D646DDEC214C65B300391639 /* GooglePodsSwizzleIntents.appex */,
+				D646DDF5214C65B300391639 /* GooglePodsSwizzleIntentsUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +327,7 @@
 		D646DD79214C654100391639 /* GooglePodsSwizzle */ = {
 			isa = PBXGroup;
 			children = (
+				D646DE0B214C6D5F00391639 /* GooglePodsSwizzle.entitlements */,
 				D646DD7A214C654100391639 /* AppDelegate.swift */,
 				D646DD7C214C654100391639 /* ViewController.swift */,
 				D646DD7E214C654100391639 /* Main.storyboard */,
@@ -125,6 +356,76 @@
 			path = GooglePodsSwizzleUITests;
 			sourceTree = "<group>";
 		};
+		D646DDAD214C656B00391639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D646DDAE214C656B00391639 /* NotificationCenter.framework */,
+				D646DDF6214C65B300391639 /* IntentsUI.framework */,
+				6859C3188D19A606D5D0D088 /* Pods_GooglePodsSwizzle.framework */,
+				C3EC062D08445B72D48F747C /* Pods_GooglePodsSwizzle_GooglePodsSwizzleTests.framework */,
+				171FB34A52B55B48E1BF19FE /* Pods_GooglePodsSwizzle_GooglePodsSwizzleUITests.framework */,
+				CB24B53AF191AAF6D03247F9 /* Pods_GooglePodsSwizzleIntents.framework */,
+				0F2F5433734980B33255A28E /* Pods_GooglePodsSwizzleIntentsUI.framework */,
+				85CA616D1E1F2AA182B16A14 /* Pods_GooglePodsSwizzleToday.framework */,
+				7B6BC4E5134C60EDA828563F /* Pods_GooglePodsSwizzleWatch.framework */,
+				ABF0FE1631D265360AD55396 /* Pods_GooglePodsSwizzleWatchExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D646DDB0214C656B00391639 /* GooglePodsSwizzleToday */ = {
+			isa = PBXGroup;
+			children = (
+				D646DDB1214C656B00391639 /* TodayViewController.swift */,
+				D646DDB3214C656B00391639 /* MainInterface.storyboard */,
+				D646DDB6214C656B00391639 /* Info.plist */,
+			);
+			path = GooglePodsSwizzleToday;
+			sourceTree = "<group>";
+		};
+		D646DDC1214C659600391639 /* GooglePodsSwizzleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D646DDC2214C659600391639 /* Interface.storyboard */,
+				D646DDC5214C659700391639 /* Assets.xcassets */,
+				D646DDC7214C659700391639 /* Info.plist */,
+			);
+			path = GooglePodsSwizzleWatch;
+			sourceTree = "<group>";
+		};
+		D646DDD0214C659700391639 /* GooglePodsSwizzleWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D646DDD1214C659700391639 /* InterfaceController.swift */,
+				D646DDD3214C659700391639 /* ExtensionDelegate.swift */,
+				D646DDD5214C659700391639 /* NotificationController.swift */,
+				D646DDD7214C659700391639 /* ComplicationController.swift */,
+				D646DDD9214C659800391639 /* Assets.xcassets */,
+				D646DDDB214C659800391639 /* Info.plist */,
+				D646DDDC214C659800391639 /* PushNotificationPayload.apns */,
+			);
+			path = "GooglePodsSwizzleWatch Extension";
+			sourceTree = "<group>";
+		};
+		D646DDED214C65B300391639 /* GooglePodsSwizzleIntents */ = {
+			isa = PBXGroup;
+			children = (
+				D646DDEE214C65B300391639 /* IntentHandler.swift */,
+				D646DDF0214C65B300391639 /* Info.plist */,
+			);
+			path = GooglePodsSwizzleIntents;
+			sourceTree = "<group>";
+		};
+		D646DDF8214C65B300391639 /* GooglePodsSwizzleIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				D646DDF9214C65B300391639 /* IntentViewController.swift */,
+				D646DDFB214C65B300391639 /* MainInterface.storyboard */,
+				D646DDFE214C65B400391639 /* Info.plist */,
+			);
+			path = GooglePodsSwizzleIntentsUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,13 +433,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D646DD9F214C654300391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzle" */;
 			buildPhases = (
+				27B37855573AC75A9B79ECBB /* [CP] Check Pods Manifest.lock */,
 				D646DD73214C654100391639 /* Sources */,
 				D646DD74214C654100391639 /* Frameworks */,
 				D646DD75214C654100391639 /* Resources */,
+				D646DDBD214C656B00391639 /* Embed App Extensions */,
+				D646DDE7214C659800391639 /* Embed Watch Content */,
+				2490FF7666BEC90645B21BB8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D646DDB8214C656B00391639 /* PBXTargetDependency */,
+				D646DDDE214C659800391639 /* PBXTargetDependency */,
+				D646DE00214C65B400391639 /* PBXTargetDependency */,
+				D646DE03214C65B400391639 /* PBXTargetDependency */,
 			);
 			name = GooglePodsSwizzle;
 			productName = GooglePodsSwizzle;
@@ -149,9 +458,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D646DDA2214C654300391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleTests" */;
 			buildPhases = (
+				5A97E6E15717FEEA530E324A /* [CP] Check Pods Manifest.lock */,
 				D646DD87214C654300391639 /* Sources */,
 				D646DD88214C654300391639 /* Frameworks */,
 				D646DD89214C654300391639 /* Resources */,
+				5A7966A272A4269813EACB45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +478,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D646DDA5214C654300391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleUITests" */;
 			buildPhases = (
+				4CCA26E38508CB89CD2968CD /* [CP] Check Pods Manifest.lock */,
 				D646DD92214C654300391639 /* Sources */,
 				D646DD93214C654300391639 /* Frameworks */,
 				D646DD94214C654300391639 /* Resources */,
+				20D5236A2EEA88CFEB65A3AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,6 +493,98 @@
 			productName = GooglePodsSwizzleUITests;
 			productReference = D646DD96214C654300391639 /* GooglePodsSwizzleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D646DDAB214C656B00391639 /* GooglePodsSwizzleToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D646DDBA214C656B00391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleToday" */;
+			buildPhases = (
+				6FE096692436BC684930371B /* [CP] Check Pods Manifest.lock */,
+				D646DDA8214C656B00391639 /* Sources */,
+				D646DDA9214C656B00391639 /* Frameworks */,
+				D646DDAA214C656B00391639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePodsSwizzleToday;
+			productName = GooglePodsSwizzleToday;
+			productReference = D646DDAC214C656B00391639 /* GooglePodsSwizzleToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D646DDBF214C659600391639 /* GooglePodsSwizzleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D646DDE4214C659800391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleWatch" */;
+			buildPhases = (
+				FC54939644ADFEC764AB948E /* [CP] Check Pods Manifest.lock */,
+				D646DDBE214C659600391639 /* Resources */,
+				D646DDE3214C659800391639 /* Embed App Extensions */,
+				FB106A584CB68B47D1FB2917 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D646DDCF214C659700391639 /* PBXTargetDependency */,
+			);
+			name = GooglePodsSwizzleWatch;
+			productName = GooglePodsSwizzleWatch;
+			productReference = D646DDC0214C659600391639 /* GooglePodsSwizzleWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D646DDCB214C659700391639 /* GooglePodsSwizzleWatchExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D646DDE0214C659800391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleWatchExtension" */;
+			buildPhases = (
+				0904E0960B86105B4DC302D2 /* [CP] Check Pods Manifest.lock */,
+				D646DDC8214C659700391639 /* Sources */,
+				D646DDC9214C659700391639 /* Frameworks */,
+				D646DDCA214C659700391639 /* Resources */,
+				D797E9E828C813DE6CF5C0E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePodsSwizzleWatchExtension;
+			productName = "GooglePodsSwizzleWatch Extension";
+			productReference = D646DDCC214C659700391639 /* GooglePodsSwizzleWatchExtension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		D646DDEB214C65B300391639 /* GooglePodsSwizzleIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D646DE08214C65B400391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleIntents" */;
+			buildPhases = (
+				1F49B14F783282DD2205DC19 /* [CP] Check Pods Manifest.lock */,
+				D646DDE8214C65B300391639 /* Sources */,
+				D646DDE9214C65B300391639 /* Frameworks */,
+				D646DDEA214C65B300391639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePodsSwizzleIntents;
+			productName = GooglePodsSwizzleIntents;
+			productReference = D646DDEC214C65B300391639 /* GooglePodsSwizzleIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D646DDF4214C65B300391639 /* GooglePodsSwizzleIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D646DE05214C65B400391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleIntentsUI" */;
+			buildPhases = (
+				5E463FFEFF21566414C8F16C /* [CP] Check Pods Manifest.lock */,
+				D646DDF1214C65B300391639 /* Sources */,
+				D646DDF2214C65B300391639 /* Frameworks */,
+				D646DDF3214C65B300391639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePodsSwizzleIntentsUI;
+			productName = GooglePodsSwizzleIntentsUI;
+			productReference = D646DDF5214C65B300391639 /* GooglePodsSwizzleIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,6 +598,11 @@
 				TargetAttributes = {
 					D646DD76214C654100391639 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
 					};
 					D646DD8A214C654300391639 = {
 						CreatedOnToolsVersion = 10.0;
@@ -201,6 +611,21 @@
 					D646DD95214C654300391639 = {
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = D646DD76214C654100391639;
+					};
+					D646DDAB214C656B00391639 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D646DDBF214C659600391639 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D646DDCB214C659700391639 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D646DDEB214C65B300391639 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D646DDF4214C65B300391639 = {
+						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
@@ -220,6 +645,11 @@
 				D646DD76214C654100391639 /* GooglePodsSwizzle */,
 				D646DD8A214C654300391639 /* GooglePodsSwizzleTests */,
 				D646DD95214C654300391639 /* GooglePodsSwizzleUITests */,
+				D646DDAB214C656B00391639 /* GooglePodsSwizzleToday */,
+				D646DDBF214C659600391639 /* GooglePodsSwizzleWatch */,
+				D646DDCB214C659700391639 /* GooglePodsSwizzleWatchExtension */,
+				D646DDEB214C65B300391639 /* GooglePodsSwizzleIntents */,
+				D646DDF4214C65B300391639 /* GooglePodsSwizzleIntentsUI */,
 			);
 		};
 /* End PBXProject section */
@@ -249,7 +679,557 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D646DDAA214C656B00391639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDB5214C656B00391639 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDBE214C659600391639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDC6214C659700391639 /* Assets.xcassets in Resources */,
+				D646DDC4214C659600391639 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDCA214C659700391639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDDA214C659800391639 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDEA214C65B300391639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDF3214C65B300391639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDFD214C65B300391639 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0904E0960B86105B4DC302D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooglePodsSwizzleWatchExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F49B14F783282DD2205DC19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooglePodsSwizzleIntents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20D5236A2EEA88CFEB65A3AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests/Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/BezierPathLength/BezierPathLength.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CHIPageControl/CHIPageControl.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire-iOS/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicColor/DynamicColor.framework",
+				"${BUILT_PRODUCTS_DIR}/GSKStretchyHeaderView/GSKStretchyHeaderView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-1e7c8385/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper+Realm/ObjectMapper_Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapperAdditions/ObjectMapperAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealmDataSources/RxRealmDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Solar/Solar.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate-iOS/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLocation-iOS/SwiftLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/Mockingjay/Mockingjay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+				"${BUILT_PRODUCTS_DIR}/URITemplate/URITemplate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BezierPathLength.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHIPageControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSKStretchyHeaderView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper_Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapperAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealmDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Solar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UPCarouselFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mockingjay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URITemplate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests/Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2490FF7666BEC90645B21BB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GooglePodsSwizzle/Pods-GooglePodsSwizzle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/BezierPathLength/BezierPathLength.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CHIPageControl/CHIPageControl.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire-iOS/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicColor/DynamicColor.framework",
+				"${BUILT_PRODUCTS_DIR}/GSKStretchyHeaderView/GSKStretchyHeaderView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-1e7c8385/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper+Realm/ObjectMapper_Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapperAdditions/ObjectMapperAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealmDataSources/RxRealmDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Solar/Solar.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate-iOS/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLocation-iOS/SwiftLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-Environment-Logger/GoogleUtilities.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BezierPathLength.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHIPageControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSKStretchyHeaderView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper_Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapperAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealmDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Solar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UPCarouselFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GooglePodsSwizzle/Pods-GooglePodsSwizzle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27B37855573AC75A9B79ECBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooglePodsSwizzle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CCA26E38508CB89CD2968CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7966A272A4269813EACB45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GooglePodsSwizzle-GooglePodsSwizzleTests/Pods-GooglePodsSwizzle-GooglePodsSwizzleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/BezierPathLength/BezierPathLength.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CHIPageControl/CHIPageControl.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire-iOS/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicColor/DynamicColor.framework",
+				"${BUILT_PRODUCTS_DIR}/GSKStretchyHeaderView/GSKStretchyHeaderView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-1e7c8385/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper+Realm/ObjectMapper_Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapperAdditions/ObjectMapperAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealmDataSources/RxRealmDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Solar/Solar.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate-iOS/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLocation-iOS/SwiftLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/Mockingjay/Mockingjay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+				"${BUILT_PRODUCTS_DIR}/URITemplate/URITemplate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BezierPathLength.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHIPageControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSKStretchyHeaderView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper_Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapperAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealmDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Solar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UPCarouselFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mockingjay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URITemplate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GooglePodsSwizzle-GooglePodsSwizzleTests/Pods-GooglePodsSwizzle-GooglePodsSwizzleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A97E6E15717FEEA530E324A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooglePodsSwizzle-GooglePodsSwizzleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E463FFEFF21566414C8F16C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooglePodsSwizzleIntentsUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE096692436BC684930371B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooglePodsSwizzleToday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D797E9E828C813DE6CF5C0E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GooglePodsSwizzleWatchExtension/Pods-GooglePodsSwizzleWatchExtension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-watchOS/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire-watchOS/CodableAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate-watchOS/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLocation-watchOS/SwiftLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-watchOS/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/YOChartImageKit/YOChartImageKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YOChartImageKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GooglePodsSwizzleWatchExtension/Pods-GooglePodsSwizzleWatchExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC54939644ADFEC764AB948E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GooglePodsSwizzleWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D646DD73214C654100391639 /* Sources */ = {
@@ -277,6 +1257,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D646DDA8214C656B00391639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDB2214C656B00391639 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDC8214C659700391639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDD6214C659700391639 /* NotificationController.swift in Sources */,
+				D646DDD8214C659700391639 /* ComplicationController.swift in Sources */,
+				D646DDD4214C659700391639 /* ExtensionDelegate.swift in Sources */,
+				D646DDD2214C659700391639 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDE8214C65B300391639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDEF214C65B300391639 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DDF1214C65B300391639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DDFA214C65B300391639 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +1304,31 @@
 			isa = PBXTargetDependency;
 			target = D646DD76214C654100391639 /* GooglePodsSwizzle */;
 			targetProxy = D646DD97214C654300391639 /* PBXContainerItemProxy */;
+		};
+		D646DDB8214C656B00391639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D646DDAB214C656B00391639 /* GooglePodsSwizzleToday */;
+			targetProxy = D646DDB7214C656B00391639 /* PBXContainerItemProxy */;
+		};
+		D646DDCF214C659700391639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D646DDCB214C659700391639 /* GooglePodsSwizzleWatchExtension */;
+			targetProxy = D646DDCE214C659700391639 /* PBXContainerItemProxy */;
+		};
+		D646DDDE214C659800391639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D646DDBF214C659600391639 /* GooglePodsSwizzleWatch */;
+			targetProxy = D646DDDD214C659800391639 /* PBXContainerItemProxy */;
+		};
+		D646DE00214C65B400391639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D646DDF4214C65B300391639 /* GooglePodsSwizzleIntentsUI */;
+			targetProxy = D646DDFF214C65B400391639 /* PBXContainerItemProxy */;
+		};
+		D646DE03214C65B400391639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D646DDEB214C65B300391639 /* GooglePodsSwizzleIntents */;
+			targetProxy = D646DE02214C65B400391639 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,6 +1347,30 @@
 				D646DD84214C654300391639 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D646DDB3214C656B00391639 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D646DDB4214C656B00391639 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		D646DDC2214C659600391639 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D646DDC3214C659600391639 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		D646DDFB214C65B300391639 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D646DDFC214C65B300391639 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -370,6 +1434,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -424,16 +1489,18 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		D646DDA0214C654300391639 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE37159B27A8C765EC51F74A /* Pods-GooglePodsSwizzle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RD2SS7229H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GooglePodsSwizzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,17 +1508,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		D646DDA1214C654300391639 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95AE2EF54AB8A44B3DE81038 /* Pods-GooglePodsSwizzle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RD2SS7229H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GooglePodsSwizzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,18 +1528,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		D646DDA3214C654300391639 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD688FF892241C46C5AD96AF /* Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RD2SS7229H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GooglePodsSwizzleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -479,7 +1549,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePodsSwizzle.app/GooglePodsSwizzle";
 			};
@@ -487,11 +1558,11 @@
 		};
 		D646DDA4214C654300391639 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89021A258971CEAC7EE98CD5 /* Pods-GooglePodsSwizzle-GooglePodsSwizzleTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RD2SS7229H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GooglePodsSwizzleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -500,7 +1571,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePodsSwizzle.app/GooglePodsSwizzle";
 			};
@@ -508,10 +1580,10 @@
 		};
 		D646DDA6214C654300391639 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E997125EC78A6BB745DCBF14 /* Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RD2SS7229H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GooglePodsSwizzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -520,7 +1592,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GooglePodsSwizzle;
 			};
@@ -528,10 +1601,10 @@
 		};
 		D646DDA7214C654300391639 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3DA867BCA22D5E5FBFBD6B /* Pods-GooglePodsSwizzle-GooglePodsSwizzleUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RD2SS7229H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GooglePodsSwizzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -540,9 +1613,216 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GooglePodsSwizzle;
+			};
+			name = Release;
+		};
+		D646DDBB214C656B00391639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE02021A14A2CA189A9F4162 /* Pods-GooglePodsSwizzleToday.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GooglePodsSwizzleToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.GooglePodsSwizzleToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D646DDBC214C656B00391639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A33D597355CF4C32BA53F9 /* Pods-GooglePodsSwizzleToday.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GooglePodsSwizzleToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.GooglePodsSwizzleToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D646DDE1214C659800391639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0393633015C276E86DE969 /* Pods-GooglePodsSwizzleWatchExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD2SS7229H;
+				INFOPLIST_FILE = "GooglePodsSwizzleWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		D646DDE2214C659800391639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C1449E27BDB5F6DC3764D7 /* Pods-GooglePodsSwizzleWatchExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD2SS7229H;
+				INFOPLIST_FILE = "GooglePodsSwizzleWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		D646DDE5214C659800391639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8B0C48A8423DAE59A0D30B /* Pods-GooglePodsSwizzleWatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = GooglePodsSwizzleWatch_Extension;
+				INFOPLIST_FILE = GooglePodsSwizzleWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		D646DDE6214C659800391639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77914B8229AF516D721C9E3E /* Pods-GooglePodsSwizzleWatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = GooglePodsSwizzleWatch_Extension;
+				INFOPLIST_FILE = GooglePodsSwizzleWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		D646DE06214C65B400391639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D819AA672B378C5059CA26 /* Pods-GooglePodsSwizzleIntentsUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GooglePodsSwizzleIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.GooglePodsSwizzleIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D646DE07214C65B400391639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5775853A02095827E5720C22 /* Pods-GooglePodsSwizzleIntentsUI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GooglePodsSwizzleIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.GooglePodsSwizzleIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D646DE09214C65B400391639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CB1FF8AD6A91953E77EE55 /* Pods-GooglePodsSwizzleIntents.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GooglePodsSwizzleIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.GooglePodsSwizzleIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D646DE0A214C65B400391639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F4ABB69E0B21559B10E76B /* Pods-GooglePodsSwizzleIntents.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GooglePodsSwizzleIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle.GooglePodsSwizzleIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -581,6 +1861,51 @@
 			buildConfigurations = (
 				D646DDA6214C654300391639 /* Debug */,
 				D646DDA7214C654300391639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D646DDBA214C656B00391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646DDBB214C656B00391639 /* Debug */,
+				D646DDBC214C656B00391639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D646DDE0214C659800391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleWatchExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646DDE1214C659800391639 /* Debug */,
+				D646DDE2214C659800391639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D646DDE4214C659800391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646DDE5214C659800391639 /* Debug */,
+				D646DDE6214C659800391639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D646DE05214C65B400391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646DE06214C65B400391639 /* Debug */,
+				D646DE07214C65B400391639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D646DE08214C65B400391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646DE09214C65B400391639 /* Debug */,
+				D646DE0A214C65B400391639 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

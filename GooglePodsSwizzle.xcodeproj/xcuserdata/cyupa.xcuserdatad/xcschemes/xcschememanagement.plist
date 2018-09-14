@@ -7,7 +7,37 @@
 		<key>GooglePodsSwizzle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>73</integer>
+		</dict>
+		<key>GooglePodsSwizzleIntents.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>78</integer>
+		</dict>
+		<key>GooglePodsSwizzleIntentsUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
+		<key>GooglePodsSwizzleToday.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>74</integer>
+		</dict>
+		<key>GooglePodsSwizzleWatch (Complication).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>77</integer>
+		</dict>
+		<key>GooglePodsSwizzleWatch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
+		<key>GooglePodsSwizzleWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>75</integer>
 		</dict>
 	</dict>
 </dict>
