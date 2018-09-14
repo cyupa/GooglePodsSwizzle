@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D646DD7B214C654100391639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DD7A214C654100391639 /* AppDelegate.swift */; };
+		D646DD7D214C654100391639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DD7C214C654100391639 /* ViewController.swift */; };
+		D646DD80214C654100391639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646DD7E214C654100391639 /* Main.storyboard */; };
+		D646DD82214C654300391639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D646DD81214C654300391639 /* Assets.xcassets */; };
+		D646DD85214C654300391639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D646DD83214C654300391639 /* LaunchScreen.storyboard */; };
+		D646DD90214C654300391639 /* GooglePodsSwizzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DD8F214C654300391639 /* GooglePodsSwizzleTests.swift */; };
+		D646DD9B214C654300391639 /* GooglePodsSwizzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D646DD9A214C654300391639 /* GooglePodsSwizzleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D646DD8C214C654300391639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D646DD6F214C654100391639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D646DD76214C654100391639;
+			remoteInfo = GooglePodsSwizzle;
+		};
+		D646DD97214C654300391639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D646DD6F214C654100391639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D646DD76214C654100391639;
+			remoteInfo = GooglePodsSwizzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D646DD77214C654100391639 /* GooglePodsSwizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePodsSwizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D646DD7A214C654100391639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D646DD7C214C654100391639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D646DD7F214C654100391639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D646DD81214C654300391639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D646DD84214C654300391639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D646DD86214C654300391639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646DD8B214C654300391639 /* GooglePodsSwizzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePodsSwizzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D646DD8F214C654300391639 /* GooglePodsSwizzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePodsSwizzleTests.swift; sourceTree = "<group>"; };
+		D646DD91214C654300391639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D646DD96214C654300391639 /* GooglePodsSwizzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePodsSwizzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D646DD9A214C654300391639 /* GooglePodsSwizzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePodsSwizzleUITests.swift; sourceTree = "<group>"; };
+		D646DD9C214C654300391639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D646DD74214C654100391639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DD88214C654300391639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DD93214C654300391639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D646DD6E214C654100391639 = {
+			isa = PBXGroup;
+			children = (
+				D646DD79214C654100391639 /* GooglePodsSwizzle */,
+				D646DD8E214C654300391639 /* GooglePodsSwizzleTests */,
+				D646DD99214C654300391639 /* GooglePodsSwizzleUITests */,
+				D646DD78214C654100391639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D646DD78214C654100391639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D646DD77214C654100391639 /* GooglePodsSwizzle.app */,
+				D646DD8B214C654300391639 /* GooglePodsSwizzleTests.xctest */,
+				D646DD96214C654300391639 /* GooglePodsSwizzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D646DD79214C654100391639 /* GooglePodsSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				D646DD7A214C654100391639 /* AppDelegate.swift */,
+				D646DD7C214C654100391639 /* ViewController.swift */,
+				D646DD7E214C654100391639 /* Main.storyboard */,
+				D646DD81214C654300391639 /* Assets.xcassets */,
+				D646DD83214C654300391639 /* LaunchScreen.storyboard */,
+				D646DD86214C654300391639 /* Info.plist */,
+			);
+			path = GooglePodsSwizzle;
+			sourceTree = "<group>";
+		};
+		D646DD8E214C654300391639 /* GooglePodsSwizzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D646DD8F214C654300391639 /* GooglePodsSwizzleTests.swift */,
+				D646DD91214C654300391639 /* Info.plist */,
+			);
+			path = GooglePodsSwizzleTests;
+			sourceTree = "<group>";
+		};
+		D646DD99214C654300391639 /* GooglePodsSwizzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D646DD9A214C654300391639 /* GooglePodsSwizzleUITests.swift */,
+				D646DD9C214C654300391639 /* Info.plist */,
+			);
+			path = GooglePodsSwizzleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D646DD76214C654100391639 /* GooglePodsSwizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D646DD9F214C654300391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzle" */;
+			buildPhases = (
+				D646DD73214C654100391639 /* Sources */,
+				D646DD74214C654100391639 /* Frameworks */,
+				D646DD75214C654100391639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePodsSwizzle;
+			productName = GooglePodsSwizzle;
+			productReference = D646DD77214C654100391639 /* GooglePodsSwizzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D646DD8A214C654300391639 /* GooglePodsSwizzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D646DDA2214C654300391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleTests" */;
+			buildPhases = (
+				D646DD87214C654300391639 /* Sources */,
+				D646DD88214C654300391639 /* Frameworks */,
+				D646DD89214C654300391639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D646DD8D214C654300391639 /* PBXTargetDependency */,
+			);
+			name = GooglePodsSwizzleTests;
+			productName = GooglePodsSwizzleTests;
+			productReference = D646DD8B214C654300391639 /* GooglePodsSwizzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D646DD95214C654300391639 /* GooglePodsSwizzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D646DDA5214C654300391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleUITests" */;
+			buildPhases = (
+				D646DD92214C654300391639 /* Sources */,
+				D646DD93214C654300391639 /* Frameworks */,
+				D646DD94214C654300391639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D646DD98214C654300391639 /* PBXTargetDependency */,
+			);
+			name = GooglePodsSwizzleUITests;
+			productName = GooglePodsSwizzleUITests;
+			productReference = D646DD96214C654300391639 /* GooglePodsSwizzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D646DD6F214C654100391639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Applicodo;
+				TargetAttributes = {
+					D646DD76214C654100391639 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D646DD8A214C654300391639 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D646DD76214C654100391639;
+					};
+					D646DD95214C654300391639 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D646DD76214C654100391639;
+					};
+				};
+			};
+			buildConfigurationList = D646DD72214C654100391639 /* Build configuration list for PBXProject "GooglePodsSwizzle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D646DD6E214C654100391639;
+			productRefGroup = D646DD78214C654100391639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D646DD76214C654100391639 /* GooglePodsSwizzle */,
+				D646DD8A214C654300391639 /* GooglePodsSwizzleTests */,
+				D646DD95214C654300391639 /* GooglePodsSwizzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D646DD75214C654100391639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DD85214C654300391639 /* LaunchScreen.storyboard in Resources */,
+				D646DD82214C654300391639 /* Assets.xcassets in Resources */,
+				D646DD80214C654100391639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DD89214C654300391639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DD94214C654300391639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D646DD73214C654100391639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DD7D214C654100391639 /* ViewController.swift in Sources */,
+				D646DD7B214C654100391639 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DD87214C654300391639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DD90214C654300391639 /* GooglePodsSwizzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D646DD92214C654300391639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D646DD9B214C654300391639 /* GooglePodsSwizzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D646DD8D214C654300391639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D646DD76214C654100391639 /* GooglePodsSwizzle */;
+			targetProxy = D646DD8C214C654300391639 /* PBXContainerItemProxy */;
+		};
+		D646DD98214C654300391639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D646DD76214C654100391639 /* GooglePodsSwizzle */;
+			targetProxy = D646DD97214C654300391639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D646DD7E214C654100391639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D646DD7F214C654100391639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D646DD83214C654300391639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D646DD84214C654300391639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D646DD9D214C654300391639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D646DD9E214C654300391639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D646DDA0214C654300391639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD2SS7229H;
+				INFOPLIST_FILE = GooglePodsSwizzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D646DDA1214C654300391639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD2SS7229H;
+				INFOPLIST_FILE = GooglePodsSwizzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D646DDA3214C654300391639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD2SS7229H;
+				INFOPLIST_FILE = GooglePodsSwizzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePodsSwizzle.app/GooglePodsSwizzle";
+			};
+			name = Debug;
+		};
+		D646DDA4214C654300391639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD2SS7229H;
+				INFOPLIST_FILE = GooglePodsSwizzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePodsSwizzle.app/GooglePodsSwizzle";
+			};
+			name = Release;
+		};
+		D646DDA6214C654300391639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD2SS7229H;
+				INFOPLIST_FILE = GooglePodsSwizzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GooglePodsSwizzle;
+			};
+			name = Debug;
+		};
+		D646DDA7214C654300391639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD2SS7229H;
+				INFOPLIST_FILE = GooglePodsSwizzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.GooglePodsSwizzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GooglePodsSwizzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D646DD72214C654100391639 /* Build configuration list for PBXProject "GooglePodsSwizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646DD9D214C654300391639 /* Debug */,
+				D646DD9E214C654300391639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D646DD9F214C654300391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646DDA0214C654300391639 /* Debug */,
+				D646DDA1214C654300391639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D646DDA2214C654300391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646DDA3214C654300391639 /* Debug */,
+				D646DDA4214C654300391639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D646DDA5214C654300391639 /* Build configuration list for PBXNativeTarget "GooglePodsSwizzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D646DDA6214C654300391639 /* Debug */,
+				D646DDA7214C654300391639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D646DD6F214C654100391639 /* Project object */;
+}
